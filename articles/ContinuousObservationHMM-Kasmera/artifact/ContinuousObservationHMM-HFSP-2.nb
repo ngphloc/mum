@@ -1,0 +1,130 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3347,        122]
+NotebookOptionsPosition[      3034,        106]
+NotebookOutlinePosition[      3378,        121]
+CellTagsIndexPosition[      3335,        118]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", 
+    RowBox[{"t_", ",", "v_"}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{"Gamma", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"v", "+", "1"}], ")"}], "/", "2"}], "]"}], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{
+          RowBox[{"t", "^", "2"}], "/", "v"}]}], ")"}], "^", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"(", 
+           RowBox[{"v", "+", "1"}], ")"}]}], "/", "2"}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"Sqrt", "[", 
+        RowBox[{"v", " ", "Pi"}], "]"}], 
+       RowBox[{"Gamma", "[", 
+        RowBox[{"v", "/", "2"}], "]"}]}], ")"}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"logf", "[", 
+    RowBox[{"t_", ",", "v_"}], "]"}], ":=", 
+   RowBox[{"Log", "[", 
+    RowBox[{"f", "[", 
+     RowBox[{"t", ",", "v"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"dlogf", "[", "v_", "]"}], ":=", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{"logf", "[", 
+      RowBox[{"t", ",", "v"}], "]"}], ",", "v"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"v", "+", "1"}], ")"}], "/", "2"}], 
+    RowBox[{"Log", "[", 
+     RowBox[{"1", "+", 
+      RowBox[{
+       RowBox[{"t", "^", "2"}], "/", "v"}]}], "]"}]}], ",", "v"}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.6708184282404184`*^9, 3.670818473191491*^9}, {
+  3.6708187910856743`*^9, 3.670818805716562*^9}, {3.670818963983122*^9, 
+  3.670818978077117*^9}, {3.670819030378719*^9, 3.670819331157116*^9}, {
+  3.6708193631495123`*^9, 3.6708193697123256`*^9}, {3.670819403665407*^9, 
+  3.67081947815242*^9}, {3.670820644153909*^9, 3.670820706742173*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["t", "2"], " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", "v"}], ")"}]}], 
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       FractionBox[
+        SuperscriptBox["t", "2"], "v"]}], ")"}], " ", 
+     SuperscriptBox["v", "2"]}]]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"Log", "[", 
+    RowBox[{"1", "+", 
+     FractionBox[
+      SuperscriptBox["t", "2"], "v"]}], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.6708207095234604`*^9}]
+}, Open  ]]
+},
+WindowSize->{759, 601},
+WindowMargins->{{Automatic, 295}, {24, Automatic}},
+FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (April 11, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1872, 59, 92, "Input"],
+Cell[2455, 83, 563, 20, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+

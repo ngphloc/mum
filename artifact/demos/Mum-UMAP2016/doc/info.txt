@@ -1,0 +1,453 @@
+
+Call for Workshop Proposals to be held in conjunction with 
+24th Conference on User Modeling, Adaptation and Personalization (UMAP) 
+July 13-17, 2016, Halifax, Canada 
+----------------------------------------------------------------------------------------------- 
+
+UMAP 2016, which will be held for the first time as an ACM conference 
+and will be collocated with Hypertext 2016, is pleased to invite 
+proposals for workshops to be held in conjunction with the conference. 
+The workshops provide a venue to discuss and explore emerging areas of 
+User Modelling and Adaptive Hypermedia research with a group of 
+like-minded researchers and practitioners from Industry and Academia. 
+
+We welcome proposals for half-day and full-day workshops. We encourage 
+proposals for a wide range of workshops, including but not limited to: 
+ o Working group meetings around a specific problem or topic; such 
+workshops may wish to ask participants to submit a white paper or 
+position statement. 
+ o Mini-conferences on specialized topics; such workshops may have 
+their own paper submission and review processes. 
+ o Mini-competitions or challenges around selected topics with 
+individual or team participation. 
+ o Interactive discussion meetings focusing on a subtopic in the 
+general User Modelling and Adaptive Personalization research topics. 
+
+------------------------------------------------------------------------------------------------ 
+PROPOSAL FORMAT 
+
+The workshop proposals should be PDF documents not exceeding 5 pages, 
+organized as follows: 
+ o Workshop title and acronym 
+ o Workshop chair(s), including affiliation, email address, homepage, 
+and experiences in organizing such events 
+ o Abstract (up to 300 words) and topics 
+ o Motivation on why the topic is of particular interest at this time 
+ o Workshop format, discussing the mix of events such as paper 
+presentations, invited talks, panels, and general discussion 
+ o Intended audience and expected number of participants 
+ o List of (potential) members of the program committee (at least 50% 
+have to be confirmed at the time of the proposal) 
+ o Requested duration (half day or full day) 
+ o Past versions of the workshop, including URLs as well as submission 
+and acceptance statistics. 
+
+We encourage you to contact us in advance with workshop ideas; we will 
+work with prospective workshop organizers to help them design 
+successful proposals. In particular for workshop proposals with novel 
+interactive formats we are happy to assist you in further developing 
+and implementing your ideas. We encourage both researchers and 
+industry practitioners to submit proposals. 
+
+Proposals for continuations of existing workshop series are welcome as 
+well; a brief statement on the development of the workshop series, 
+e.g., in terms of topics, number of paper submissions and participants 
+or post-workshop publications over the years should be provided. 
+
+----------------------------------------------------------------------------------------------- 
+IMPORTANT DATES AND ANTICIPATED TIMELINE 
+
+Important deadlines and anticipated timeline (upon acceptance) is as follows: 
+ o Proposal submission deadline: *31 January 2016* 
+ o Notification of proposal acceptance: 14 February 2016 
+ o Deadline to send the URL of your workshop’s website: 29 February 2016 
+ o Deadline to disseminate the workshop’s 1st call for papers: 1 March 2016 
+ o Deadline to disseminate the workshop’s 2nd call for papers: 1 April 2016 
+ o Deadline to disseminate the workshop’s 3rd call for papers: 1 May 2016 
+ o Workshop paper submission deadline: 7 May 2016 
+ o Notification to authors: 1 June 2016 
+ o Camera-ready paper: 7 June 2016 
+ o Publication of electronic proceedings: 30 June 2016 
+
+Additionally, we strongly suggest to have organizers from different 
+institutions, bringing different perspectives to the workshop topic. 
+We welcome workshops with a creative structure that attracts various 
+types of contributions and ensures rich interactions. The organizers 
+of accepted workshops will prepare a workshop web site containing the 
+call for papers and detailed information about the workshop 
+organization and timeline. The organizers will be responsible for 
+their own reviewing process, publicity, and publishing electronic 
+proceedings (e.g., on the CEUR-WS website). They will be required to 
+closely cooperate with the UMAP workshops chairs to finalize the above 
+mentioned details. 
+
+------------------------------------------------------------------------------------------------ 
+WORKSHOP CHAIRS 
+
+ o Federica Cena, University of Torino, Italy 
+ o Jie Zhang, Nanyang Technological University, Singapore 
+
+Proposals should be submitted in PDF format by email to the workshop 
+chairs at <workshopumap2016@gmail.com> by *31 January 2016*. 
+
+----------------
+
+Dear sirs/madams
+I am very interested in our Conference on User Modeling, Adaptation and Personalization (UMAP2016).
+I desire to introduce the book "Mathematical Approaches to User Modeling".
+I have just read UMAP2016 Call for Workshop Proposal but I do not know exactly I should submit a workshop proposal or demonstration proposal.
+
+Could you give me some advices?
+
+As the title suggests, the book focuses on mathematical approaches to user modeling. The book includes seven chapters:
+Chapter I is a survey of user model, user modeling, and adaptive learning.
+Chapter II introduces the general architecture of the proposed user modeling system Zebra and the proposed Triangular Learner Model (TLM).
+Chapter III, IV, V describes three sub-models of TLM such as knowledge sub-model, learning style sub-model, and learning history sub-model in full of mathematical formulas and fundamental methods. These are the most important chapters.
+Chapter VI gives some approaches to evaluate TLM and Zebra.
+Chapter VII summarizes the research and discusses future trend of Zebra.
+
+The attached is the current version of the book.
+
+Best regards
+
+----------------
+
+Subject: Workshop proposal submission: Mathematical Approaches to User Modeling
+To: workshopumap2016@gmail.com
+
+Dear sirs/madams
+I am very interested in our Conference on User Modeling, Adaptation and Personalization (UMAP2016).
+I desire to introduce the book "Mathematical Approaches to User Modeling".
+I have just read UMAP2016 Call for Workshop Proposal that you provide.
+
+So I am very happy to submit the workshop proposal "Mathematical Approaches to User Modeling".
+The proposal has four sections such as workshop chair information, abstract, motivation, and workshop format.
+The attached includes the proposal and my CV.
+
+I am waiting for your response.
+Best regards
+
+------------------------------------------------------------------------------------------------ 
+ACM UMAP 2016 Call for Papers
+The 24th ACM Conference on User Modeling, Adaptation and Personalization
+
+Halifax, Nova Scotia, Canada
+13-17 July 2016
+Collocated with Hypertext 2016
+http://www.um.org/umap2016/
+ 
+UMAP is the premier international conference for researchers and practitioners 
+working on systems that adapt to individual users, to groups of users, and that 
+collect, represent, and model user information.  UMAP is the successor to the 
+biennial User Modeling (UM) and Adaptive Hypermedia and Adaptive Web-based 
+Systems (AH) conferences that were merged in 2009. It is sponsored by 
+ACM SIG CHI and SIG WEB, and organized under the auspices of User Modeling Inc.
+ 
+ACM UMAP 2016 covers a wide variety of research areas where adaptation may be 
+applied. This include (but is in no way limited to) a number of domains in which 
+researchers are engendering significant innovations based on advances in user 
+modeling and adaptation: recommender systems; adaptive educational systems; 
+intelligent user interfaces; eCommerce; advertising; digital humanities; social 
+networks; personalized health; entertainment, and many more.
+
+Key Areas:
+UMAP 2016 will explore, study and shape a broad range of dimensions faced by 
+modern user adaptive systems, covering the following Key Areas chaired by 
+leading researchers.
+
+User Modelling for Recommender Systems 
+(Area Chairs: Alexander Felfernig & Pasquale Lops)
+- Semantic recommenders
+- Social recommenders
+- User Experience, Explanations, Trust, Control
+- Context-aware recommender systems
+- Conversational recommender systems
+- Implicit and explicit user feedback
+- Preference elicitation
+- Machine learning for recommender systems
+- Case studies of real-world implementations
+ 
+Adaptive & Personalized Educational Systems
+(Area Chairs: Antonija Mitrovic)
+- Learner modeling
+- Intelligent tutoring systems
+- Adaptive and personalized learning support
+- Collaborative and group learning
+- Emerging environments such as MOOCs and educational games
+- Educational data mining and learning analytic modeling techniques
+- Learning at scale
+Modeling affective, motivational, and metacognitive aspects of learning
+Case studies of real-world implementations
+ 
+Personalization in the Social Web & Crowdsourcing Era
+(Area Chairs: Alessandro Bozzon & Harith Alani)
+- Data-driven approaches and big data techniques
+- Deep learning for personalization with social and crowd-generated data
+- Social network analysis
+- Modeling individuals, groups, and communities
+- Engagement & sustainability for personalization
+- User awareness and control
+- Privacy, perceived security, and trust
+- Adaptations based on personality, society, and culture
+- Mining of social media and crowd-generated data
+- Human computation and machine intelligence for personalization
+- Harnessing wisdom of the crowd for personalization
+- Case studies of real-world implementations
+ 
+Adaptive, Intelligent, & Multimodal User Interfaces
+(Area Chairs: Julien Epps & Hatice Gunes)
+- Multimodal user models
+- Natural interaction (speech, language, gestures)
+- Brain-computer interfaces
+- Adaptive information visualization
+- Adaptive hypermedia systems
+- Adaptive collaboration support
+- User modeling for special needs
+- Case studies of real-world implementations
+ 
+Architectures, techniques & methodologies for UMAP
+(Area Chairs: Stephan Weibelzahl & Mihaela Cocea)
+- Models of perception, action, cognition, and affect
+- Neurobiological and physiological models
+- User experience
+- Ongoing continuous modeling
+- Lifewide modeling
+- Data-driven approaches
+- Non-standard database representations (networks, graphs)
+- Sensor networks
+- Handheld and mobile devices
+- Standards and specifications
+- Interoperability, semantics
+- Evaluation methodologies and metrics
+- Case studies of real-world implementations
+
+
+Submission Categories and Review Process
+
+UMAP 2016 will include high quality peer-reviewed papers related to the above 
+key areas.  We welcome original, and principled research papers addressing both 
+the theory and practice of UMAP and papers showcasing innovative use of UMAP and 
+exploring the benefits and challenges of applying UMAP technology in real-life 
+applications and contexts. Authors will be asked to indicate one or more key 
+areas (from the five listed below) at the time of submission. Submissions 
+should be made into one of two categories - long and short papers as defined 
+below.
+
+Long papers (8 pages + references) should present original reports of 
+substantive new research techniques, findings, and applications of UMAP. 
+They should place the work within the field and clearly indicate innovative 
+aspects. Research procedures and technical methods should be presented in 
+sufficient detail to ensure scrutiny and reproducibility. Results should be 
+clearly communicated and implications of the contributions/findings for
+UMAP and beyond should be explicitly discussed.
+
+Short papers (4 pages + references) should present original and highly 
+promising research or applications. Merit will be assessed in terms of 
+originality and importance rather than maturity, extensive technical 
+validation, and user studies, although some form of validation is desirable.
+
+Maintaining the high quality and impact of the UMAP series, each paper will 
+have three reviews by program committee members and a meta-review presenting 
+the reviewersí consensual view; the review process will be coordinated by 
+the program chairs in collaboration with the corresponding area chairs.
+
+Separation of long and short papers will be strictly enforced so papers will 
+not compete across categories but within each category. Papers that receive 
+high scores and are considered promising by reviewers, but didnít make the 
+acceptance cut, will be invited to be resubmitted as posters and/or demos.
+
+
+Submission Details and Publication:
+
+Page limits: Long papers - 8 pages + references; 
+Short pages: 4 pages + references. 
+Note that reference do not count towards page limits. Papers that exceed 
+the page limits or formatting guidelines will be returned without review.
+ 
+Papers must be formatted using the ACM SIG proceedings template and submitted 
+via EasyChair.
+
+Submission templates: http://www.acm.org/publications/proceedings-template
+
+Easychair submission: https://easychair.org/conferences/?conf=umap2016
+
+
+Accepted papers will be published by ACM and will be available via the 
+ACM Digital Library. 
+At least one author of each accepted paper must register for the conference 
+by May 1, 2016 for the paper to be included in the proceedings. 
+Authors are expected to attend the conference and present the paper there.
+
+Important Dates:
+
+23 February 2016: Abstracts for Full and Short Papers (mandatory)
+1 March 2016: 	  Full and Short Papers due
+25 March 2016: 	  Doctoral consortium papers
+ 
+15 April 2016: 	  Notification for full, short, posters & DC papers
+1 May 2016: 	  Camera-ready for Full, Short, Posters & DC papers 
+		  (main proceedings)
+            	  Author Registration Deadline for main proceedings
+ 
+7 May 2016: 	  Workshop papers & demos, Late-Breaking Results (LBR)  
+1 June 2016: 	  Notification of workshop papers & Demos, LBR papers
+7 June 2016: 	  Camera-ready for Workshop papers & Demos, LBR papers 
+	          (extended proceedings)
+            	  Early Registration Deadline 
+		  (author registration for extended proceedings)
+ 
+12 July 2016: 	  Regular Registration Deadline
+13-17 July 2016:  UMAP 2016 Conference 
+		  On-site Registration
+ 
+The submissions times are 11:59 pm Hawaii time.
+
+Organization
+
+Program Chairs: Lora Aroyo and Sidney DíMello
+
+Doctoral Consortium Chairs: Vania Dimitrova and Maria Bielikova
+
+Posters and Demos Chairs: Darina Dicheva and TBA
+
+General Chairs: Julita Vassileva and James Blustein
+ 
+Conference Website
+http://www.um.org/umap2016/
+
+
+-- 
+------------------------------------------------------- 
+Dipl.-Ing. Dr.techn. Christoph Trattner BSc
+Know-Center
+Research Center for Big Data Analytics & Data Driven Business
+Graz University of Technology, Austria
+E-mail: ctrattner@know-center.at
+Tel: +43 650 2402801  
+Homepage: http://christophtrattner.info
+------------------------------------------------------- 
+New book: Mining, Modeling, and Recommending 'Things' in Social Media*
+by M. Atzmueller, A. Chin, C. Scholz, C. Trattner (eds.)
+http://link.springer.com/978-3-319-14723-9
+------------------------------------------------------- 
+
+- User Modeling mailing list -
+
+Please, use the following address to post messages to the mailing list:
+um@di.unito.it
+
+The Web page of the mailing list:
+https://www.di.unito.it/listserver/info/um (secure web site)
+enables you to view the mailing list archive, remove yourself
+from the mailing list, etc.
+
+
+----------------------------------------------------------
+Call for Tutorials
+
+ACM UMAP 2016 invites tutorials that address the interests of its varied 
+audience: people new to the User Modeling, User Modeling and 
+Personalisation researchers and practitioners who wish to learn new 
+technologies, users of Personalized technologies, and representatives of 
+government and funding agencies as well as potential private investors 
+in Personalized technologies. We welcome submissions of tutorial 
+proposals on all major topics related to user modeling and 
+personalisation technologies. We especially solicit proposals for 
+tutorials of the following types:
+•    Tutorials with a coherent theme providing an introduction to new 
+user modeling technologies, methods, techniques, and trends (e.g. 
+exploitation of Linked Open Data, ontology-based user modeling, user 
+modeling design principles, etc.).
+•    Tutorials describing the application of user modeling technologies 
+in specific domains (e.g., life-sciences, e-government, e-commerce, 
+cultural heritage, educations, mobile, music, etc.).
+•  Tutorials presenting techniques from other fields that are of 
+relevance for User Modeling research, including semantic web, social 
+sciences, digital humanities, biomedical research, HCI, Information 
+Retrieval, database, NLP, Internet of Things, data visualization, etc.
+Tutorials may focus on theoretical topics, however, we encourage 
+organizers to incorporate hands-on sessions where appropriate. The 
+tutorial should reach a good balance between the topic coverage and its 
+relevance to the community. Tutorials can be half a day or a full day.
+
+Timeline for Tutorials
+Tutorial proposals due: May 1, 2016
+Notification of acceptance: May 5, 2016
+Tutorial Days:  13 July 2016
+
+Responsibilities
+Organizers of accepted tutorials are responsible for submitting the 
+material for attendees (slide sets, additional teaching material, 
+software installation and usage guides for practical hands-on sessions, 
+etc.) to the Tutorial Chairs. The UMAP 2016 Organizing Committee is 
+responsible for providing publicity for the tutorials as part of the 
+conference publicity activities, and on-site logistical support to the 
+organizers and attendees.
+
+General Information
+In the interest of the overall quality of the conference, the Tutorial 
+Chair reserves the right to merge tutorials and/or adjust the scope 
+thereof in case a minimum number of registrations is not reached by the 
+early registration deadline.
+
+Submission details
+
+Tutorial proposals should not exceed 5 pages, and should contain the 
+following information:
+•    Abstract. 200 words maximum, for inclusion on the UMAP2016 website.
+•    Tutorial description: objectives of the tutorial and relevance to 
+UMAP2016; information about the scope and level of detail of the 
+material to be covered; intended audiences; learning objectives; 
+practical sessions.
+•    Tutorial length. The tutorial can be full or half day
+•    Specify other venues to which the tutorial or part thereof has or 
+will be presented, in addition to explaining how the current tutorial 
+differs from the other editions. Links to the slides of those tutorial 
+editions should be included in the proposal.
+•    Brief professional biography of the presenter(s) indicating 
+previous training and speaking experience (such as teaching and tutorial 
+presentation).
+All proposals will be reviewed by the tutorial chairs and discussed 
+within the organization committee of the UMAP2016.
+
+Submission
+Proposals should be submitted in PDF format by email to the tutorial 
+chairs at workshopumap2016@gmail.com by May 1, 2016.
+
+Tutorials Chairs
+Federica Cena, Università degli Studi di Torino, Italy, email: 
+cena@di.unito.it
+Jie Zhang, Nanyang Technological University, Singapore, email: 
+zhangj@ntu.edu.sg
+
+-- 
+Federica Cena, Ph. D.
+Assistant Professor - Researcher
+Dipartimento di Informatica
+Universita' di Torino
+Corso Svizzera 185, 10149 Torino, Italy
+  
+Phone +39 0116706779
+Fax +39 011751603
+email: cena@di.unito.it
+web: www.di.unito.it/~cena/
+
+
+------------------------------------------------------------------
+Subject: UMAP 2016 Tutorial Proposal Submission
+To: workshopumap2016@gmail.com, cena@di.unito.it, zhangj@ntu.edu.sg
+
+Dear Sir/Madam
+I am very interested in UMAP Tutorial 2016.
+This is a big chance for me to enhance research career.
+Moreover I desire to contribute to science. This is my biggest honor and happiness.
+
+I am Loc Nguyen, founder of Sunflower Soft Company, who submit a proposal of "Mathematical Approaches to User Modeling" to UMAP Tutorial 2016.
+
+The tutorial aims to introduce the book "Mathematical Approaches to User Modeling" in order to help scientists to implements practical researches and applications based on solid fundamental theories in which algorithms and formulas are described by the succinct way. Preprint version of the book is available at https://goo.gl/bDEXZM
+
+Please click here (https://goo.gl/Vx3zm1) to review the tutorial proposal.
+The attached also includes the tutorial proposal.
+I am waiting for your response.
+Please keep in touch with me.
+Best regards,

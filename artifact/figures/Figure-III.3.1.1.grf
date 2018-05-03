@@ -1,0 +1,78 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows XP 5.1 Service Pack 3
+
+[Axes]
+xMin = -1.99528947210725
+xMax = 2.58006901888495
+xTickUnit = 0.2
+xGridUnit = 0.2
+yMin = -1.52723015344414
+yMax = 3.04812833754806
+yTickUnit = 0.5
+yGridUnit = 0.5
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = (1/beta(2,2))*(x^(2-1))*((1-x)^(2-1))
+From = 0
+To = 1
+Color = clBlack
+Size = 2
+
+[Func2]
+FuncType = 0
+y = (1/beta(4,2))*(x^(4-1))*((1-x)^(2-1))
+From = 0
+To = 1
+Color = clGreen
+Size = 2
+
+[Func3]
+FuncType = 0
+y = (1/beta(2,4))*(x^(2-1))*((1-x)^(4-1))
+From = 0
+To = 1
+Color = clRed
+Size = 2
+
+[Label1]
+Placement = 0
+Pos = 0.197633828309131;1.56386025564881
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset161{\\*\\fname Times New Roman;}Times New Roman Greek;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil 101! Alpha Pikture 'Bet;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\i\\f0\\fs26\\'e2\\i0\\f1 (2, 2)\\cf1\\b0\\f2\\fs36\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 0.162438762993806;2.24948317237934
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset161{\\*\\fname Times New Roman;}Times New Roman Greek;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil 101! Alpha Pikture 'Bet;}}\n{\\colortbl ;\\red255\\green0\\blue0;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\cf1\\b\\i\\f0\\fs26\\'e2\\i0\\f1 (2, 4)\\cf2\\b0\\f2\\fs36\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label3]
+Placement = 0
+Pos = 0.639828238681158;2.25152574313424
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset161{\\*\\fname Times New Roman;}Times New Roman Greek;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil 101! Alpha Pikture 'Bet;}}\n{\\colortbl ;\\red0\\green128\\blue0;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\cf1\\b\\i\\f0\\fs26\\'e2\\i0\\f1 (4, 2)\\cf2\\b0\\f2\\fs36\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 3
+FuncCount = 3
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
+[CustomFunctions]
+a = 2
+b = 2
+

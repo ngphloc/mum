@@ -1,0 +1,71 @@
+Viterbi algorithm on observation sequence O={o(0)=0.88, o(1)=0.13, o(2)=0.38} with HMM:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.500000 0.250000 0.250000
+0.300000 0.400000 0.300000
+0.250000 0.250000 0.500000
+
+Initial state probability PI
+0.330000 0.330000 0.330000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.870000, variance=0.900000)
+Distribution 1:
+Normal distribution (mean=0.140000, variance=0.900000)
+Distribution 2:
+Normal distribution (mean=0.390000, variance=0.900000)
+
+-----t=0-----
+alpha0(0)=0.002775
+q0(0)=0
+alpha0(1)=0.002047
+q0(1)=0
+alpha0(2)=0.002429
+q0(2)=0
+
+-----t=1-----
+alpha0(0)*a0(0)=0.001388
+alpha0(1)*a1(0)=0.000614
+alpha0(2)*a2(0)=0.000607
+Max{alpha0(i)*ai(0)} = alpha0(0)*a0(0) = 0.001388
+delta1(0) = Max{alpha0(i)*ai(0)}*b0(1) = alpha0(0)*a0(0)*b0(1) = 0.001388
+q1(0)=0
+alpha0(0)*a0(1)=0.000694
+alpha0(1)*a1(1)=0.000819
+alpha0(2)*a2(1)=0.000607
+Max{alpha0(i)*ai(1)} = alpha0(1)*a1(1) = 0.000819
+delta1(1) = Max{alpha0(i)*ai(1)}*b1(1) = alpha0(1)*a1(1)*b1(1) = 0.000819
+q1(1)=1
+alpha0(0)*a0(2)=0.000694
+alpha0(1)*a1(2)=0.000614
+alpha0(2)*a2(2)=0.001214
+Max{alpha0(i)*ai(2)} = alpha0(2)*a2(2) = 0.001214
+delta1(2) = Max{alpha0(i)*ai(2)}*b2(1) = alpha0(2)*a2(2)*b2(1) = 0.001214
+q1(2)=2
+
+-----t=2-----
+alpha1(0)*a0(0)=0.000004
+alpha1(1)*a1(0)=0.000002
+alpha1(2)*a2(0)=0.000002
+Max{alpha1(i)*ai(0)} = alpha1(0)*a0(0) = 0.000004
+delta2(0) = Max{alpha1(i)*ai(0)}*b0(2) = alpha1(0)*a0(0)*b0(2) = 0.000004
+q2(0)=0
+alpha1(0)*a0(1)=0.000002
+alpha1(1)*a1(1)=0.000003
+alpha1(2)*a2(1)=0.000002
+Max{alpha1(i)*ai(1)} = alpha1(1)*a1(1) = 0.000003
+delta2(1) = Max{alpha1(i)*ai(1)}*b1(2) = alpha1(1)*a1(1)*b1(2) = 0.000003
+q2(1)=1
+alpha1(0)*a0(2)=0.000002
+alpha1(1)*a1(2)=0.000002
+alpha1(2)*a2(2)=0.000005
+Max{alpha1(i)*ai(2)} = alpha1(2)*a2(2) = 0.000005
+delta2(2) = Max{alpha1(i)*ai(2)}*b2(2) = alpha1(2)*a2(2)*b2(2) = 0.000005
+q2(2)=2
+Optimal state x(2) = argmax{delta2(j)} = 2
+Optimal state x(1) = q2(x(2)) = q2(2) = 2
+Optimal state x(0) = q1(x(1)) = q1(2) = 2
+
+The resulted optimal state sequence is X={x(0)=2, x(1)=2, x(2)=2}

@@ -1,0 +1,30 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{"c","[","a_",",","b_",",","n_","]",":=","n","^","2","*","PolyGamma","[","1",",","a","]","*","PolyGamma","[","1",",","b","]","-","n","*","PolyGamma","[","1",",","a","+","b","]","(","PolyGamma","[","1",",","a","]","+","PolyGamma","[","1",",","b","]",")"}],"\n",RowBox[
+{"s1","[","a_",",","b_",",","n_","]",":=","Sqrt","[","(","n","*","PolyGamma","[","1",",","b","]","-","PolyGamma","[","1",",","a","+","b","]",")","/","c","[","a",",","b",",","n","]","]"}],"\n",RowBox[
+{"s2","[","a_",",","b_",",","n_","]",":=","Sqrt","[","(","n","*","PolyGamma","[","1",",","a","]","-","PolyGamma","[","1",",","a","+","b","]",")","/","c","[","a",",","b",",","n","]","]"}],"\n","\n",RowBox[
+{"1","/","c","[","3",",","2",",","5","]","//","N"}],"\n",RowBox[{"s1","[","3",",","2",",","5","]","//","N"}],"\n",RowBox[
+{"s2","[","3",",","2",",","5","]","//","N"}],"\n","\n",RowBox[{"1","/","c","[","4",",","3",",","4","]","//","N"}],"\n",RowBox[
+{"s1","[","4",",","3",",","4","]","//","N"}],"\n",RowBox[{"s2","[","4",",","3",",","4","]","//","N"}],"\n","\n",RowBox[
+{"1","/","c","[","1",",","4",",","1","]","//","N"}],"\n",RowBox[{"s1","[","1",",","4",",","1","]","//","N"}],"\n",RowBox[
+{"s2","[","1",",","4",",","1","]","//","N"}]}],"Input",CellID->41,CellLabel->"In[1]:= "],Cell[
+BoxData[
+"0.1916837101465755`",StandardForm],"Output",CellID->42,CellLabel->"Out[4]= "],Cell[
+BoxData[
+"0.7587442048349636`",StandardForm],"Output",CellID->44,CellLabel->"Out[5]= "],Cell[
+BoxData[
+"0.5797310848034818`",StandardForm],"Output",CellID->45,CellLabel->"Out[6]= "],Cell[
+BoxData[
+"0.7264368254043011`",StandardForm],"Output",CellID->46,CellLabel->"Out[7]= "],Cell[
+BoxData[
+"1.0178593848995166`",StandardForm],"Output",CellID->47,CellLabel->"Out[8]= "],Cell[
+BoxData[
+"0.8444980261298554`",StandardForm],"Output",CellID->48,CellLabel->"Out[9]= "],Cell[
+BoxData[
+"25.00509872202196`",StandardForm],"Output",CellID->49,CellLabel->"Out[10]= "],Cell[
+BoxData[
+"1.25012746155197`",StandardForm],"Output",CellID->50,CellLabel->"Out[11]= "],Cell[
+BoxData[
+"5.966367100262998`",StandardForm],"Output",CellID->51,CellLabel->"Out[12]= "]},Open]]},
+StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)",
+WindowSize->{926,537}]

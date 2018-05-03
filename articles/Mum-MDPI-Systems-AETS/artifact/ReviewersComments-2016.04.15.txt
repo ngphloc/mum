@@ -1,0 +1,93 @@
+Subject: Re: [Systems] Manuscript ID: systems-120526 - Submission Received
+From: Ms. Weina Li <weina.li@mdpi.com>
+Date: April 15, 2016
+
+Dear Dr. Nguyen,
+
+We have made a similarity check for your paper and it turned out the 
+similarity index is 41%. Attached please find the similarity report. It 
+seems the cited text mainly from primary sources 1. Is it from your own 
+previous work? Can you please clarify this issue? Thank you!
+
+Kind regards,
+Weina Li
+
+
+--------------------
+Dear Weina
+Thank you very much for kindly warning me this issue.
+The manuscript is mainly summary of my previous PhD research "A User Modeling System for Adaptive Learning" and current book "Mathematical Approaches for User Modeling". So the primary source 1 "www.standresjournals.org" publishes the whole PhD research at http://standresjournals.org/journals/SSRE/Abstract/2014/april/Loc.html
+
+This is the reason that similarity index of primary source 1 is highest 33%.
+Moreover, most of main works inside the PhD research and the book are published as articles in primary sources 2, 3, 4, 5, 6, 7, 12, 21, 24. For clarification, please visit my list of articles available at Articles - Loc Nguyen's Academic Network
+
+ 
+Articles - Loc Nguyen's Academic Network
+The page for creative works of science and art
+
+
+The similarity of other sources such as 8, 9, 10, 11, 13, 14, 16, 17, 18, 19, 20, 22, 23 may be incidental or in case that I forgot to make full references. Moreover, many references in the PhD research and the book are not listed in the manuscript.
+I am truly worried about this.
+Therefore, I will revise the manuscript carefully again.
+The revised version and the full feedback will be sent to you very soon.
+Anyway, many thanks to you for your enthusiasm.
+Please keep in touch with you.
+Best regards
+
+
+--------------------
+Dear Weina
+Thank you very much for kindly warning me this issue.
+Your enthusiasm help me to improve the manuscript by the best way.
+This is my biggest honor and happiness.
+After revising the manuscript carefully, I send you the revised version via attachment.
+Moreover, following are my feedback about the similarity check.
+
+I published the source 6 in Proceedings of 4th International Conference on Interactive Mobile and Computer Aided Learning (IMCL 2009), Lecture Notes in Computer Science (LNCS) 2009, and International Journal of Emerging Technologies in Learning (iJET) Vol. 4 No. 4 2009.
+
+Similarity in source 17 is incidental.
+
+The primary source 1 "www.standresjournals.org" publishes the whole PhD research and so there are many similarity indices.
+
+I cannot find out the article "Combination of Bayesian Network and Overlay Model in User Modeling" in source 15.
+
+Similarity in source 23 may be incidental.
+
+Similarity in source 14 may be incidental.
+
+Similarity in source 9 is incidental.
+
+Similarity in source 11 is incidental.
+
+Source 2 is the brief introduction to demonstrating Zebra - the associated software to my PhD research and so it contains some similarity indices.
+
+The introduction to learning styles at the beginning 3.2 "Learning style sub-model" is mainly extracted from the research "Incorporating Cognitive/Learning Styles in a General-Purpose Adaptive Hypermedia System" of author Natalia Stash.
+
+Similarity in source 22 is incidental.
+
+Similarity in source 16 is incidental.
+
+The concept "transition probability matrix" is essential concept of hidden Markov model and so it occurs in source 10 unconsciously.
+
+Similarity in source 13 is incidental.
+
+The source 21 belongs to the publisher "Scientific Research Publishing" (SCIRP) that published my CV in which the article "Learning Concept Recommendation based on Sequential Pattern Mining" is listed. This is the reason for the similarity index "Learning Concept Recommendation based on Sequential Pattern Mining".
+
+Similarity in source 20 is incidental.
+
+Source 3 published the chapter "Discovering User Interests by Document Classification" in the book "Mining and Analyzing Social Networks" of authors I-Hsien Ting, Hui-Ju Wu, and Tien-Hwa Ho. Source 3 is an extension of source 24.
+
+Similarity in source 19 is incidental because it is also relevant to classification method.
+
+Source 4 published the article "User Model Clustering" in Journal of Data Analysis and Information Processing (JDAIP) of Scientific Research Publishing (SCIRP). Source 5 is the archives of SCIRP.
+
+The source 18 may be relevant to computerized adaptive test (CAT) and so it contains the key word "Item Response Function" which is the main subject of CAT.
+
+The special issue in source 8 is totally different from the manuscript and so similarity in source 8 is incidental. 
+
+Please keep in touch with me.
+If there are any problems, please notify me because this manuscript is very important to me.
+I will be much more confident to present a tutorial on the book "Mathematical Approaches to User Modeling" if the manuscript is accepted to be published in our journal. Your attention please, the manuscript is a summary of the book and it is not original work but it contains more important features (new CAT algorithm, evaluation of adaptive learning model) than the previous PhD thesis "A User Modeling System for Adaptive Learning" published in Standard Scientific Research and Essays (www.standresjournals.org) although this thesis is more detailed.
+Best regards
+
+

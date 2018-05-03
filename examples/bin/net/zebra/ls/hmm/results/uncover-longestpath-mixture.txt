@@ -1,0 +1,43 @@
+Longest-path algorithm on observation sequence O={o(0)=0.88, o(1)=0.13, o(2)=0.38} with HMM:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.500000 0.250000 0.250000
+0.300000 0.400000 0.300000
+0.250000 0.250000 0.500000
+
+Initial state probability PI
+0.330000 0.330000 0.330000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Weights: w1=0.600000, w2=0.400000
+Partial components:
+    Normal distribution (mean=0.870000, variance=1.000000)
+    Normal distribution (mean=0.150000, variance=1.000000)
+Distribution 1:
+Weights: w1=0.500000, w2=0.500000
+Partial components:
+    Normal distribution (mean=0.390000, variance=1.000000)
+    Normal distribution (mean=0.890000, variance=1.000000)
+Distribution 2:
+Weights: w1=0.400000, w2=0.600000
+Partial components:
+    Normal distribution (mean=0.140000, variance=1.000000)
+    Normal distribution (mean=0.370000, variance=1.000000)
+
+-----t=0-----
+W0110=0.002387
+W0111=0.002484
+W0112=0.002188
+Max{W011k} k from 0 to 2 is W0111=0.002484
+W0110=0.000005
+W0111=0.000006
+W0112=0.000006
+Max{W011k} k from 0 to 2 is W0111=0.000006
+W1120=0.000005
+W1121=0.000007
+W1122=0.000006
+Max{W112k} k from 0 to 2 is W1121=0.000007
+
+The longest-path (optimal state sequence) is X={x(0)=1, x(1)=1, x(2)=1}

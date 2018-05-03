@@ -1,0 +1,15 @@
+c[a_,b_,n_]:=n^2*PolyGamma[1,a]*PolyGamma[1,b]-n*PolyGamma[1,a+b](PolyGamma[1,a]+PolyGamma[1,b])
+s1[a_,b_,n_]:=Sqrt[(n*PolyGamma[1,b]-PolyGamma[1,a+b])/c[a,b,n]]
+s2[a_,b_,n_]:=Sqrt[(n*PolyGamma[1,a]-PolyGamma[1,a+b])/c[a,b,n]]
+
+1/c[4,3,1]//N
+s1[4,3,1]//N
+s2[4,3,1]//N
+
+1/c[3,2,1]//N
+s1[3,2,1]//N
+s2[3,2,1]//N
+
+1/c[4,4,1]//N
+s1[4,4,1]//N
+s2[4,4,1]//N

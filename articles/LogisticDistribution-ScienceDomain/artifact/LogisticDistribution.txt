@@ -1,0 +1,171 @@
+x={1};
+n=Length[x];
+loglog[a_,b_]:=n Log[a]-a (Sum[x[[i]],{i,n}]-n b)-2Sum[Log[1+Exp[-a(x[[i]]-b)]],{i,n}];
+dloglog=D[loglog[a,b],{{a,b}}]
+loglog2[a_,b_]:=-Sum[Log[1+Exp[-a(x[[i]]-b)]],{i,n}];
+dloglog2=D[loglog2[a,b],{{a,b}}]
+Plot3D[{dloglog2[[1]],dloglog2[[2]]},{a,-10,10},{b,-10,10}]
+
+---
+
+x={1};
+n=Length[x];
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+f[x_]:=1/(1+exp[x,a,b]);
+g[x_]:=a exp[x,a,b]/(1+exp[x,a,b])^2;
+l[a_,b_]:=Product[g[x[[i]]],{i,n}];
+logl[a_,b_]:=n Log[a]-a (Sum[x[[i]],{i,n}]-n b)-2Sum[Log[1+exp[x[[i]],a,b]],{i,n}];
+logl[a,b]
+Plot3D[logl[a,b],{a,10,20},{b,-10,10}]
+
+dlogl=D[logl[a,b],{{a,b}}];
+dlogl[[1]]
+dlogl[[2]]
+dloga=n/a-Sum[x[[i]](1-exp[x[[i]],a,b])/(1+exp[x[[i]],a,b]),{i,n}]
+dlogb=n-2 Sum[exp[x[[i]],a,b]/(1+exp[x[[i]],a,b]),{i,n}]
+
+Plot3D[{dloga,dlogb},{a,10,20},{b,-10,10}]
+FindRoot[{dloga==0,dlogb==0},{{a=1},{b=1}}]
+
+---
+
+x={1};
+n=Length[x];
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+g[x_]:=a exp[x,a,b]/(1+exp[x,a,b])^2;
+Plot3D[f[x[[1]]],{a,10,20},{b,-10,10}]
+
+---
+
+f[x_]:=Exp[x/2]-(x+2)/(x-2);
+Plot[f[x],{x,-10,10}]
+FindRoot[f[x]==0,{x,2.5}]
+
+---
+
+x={x1,x2,x3};
+n=Length[x];
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+dloga=n/a - Sum[x[[i]](1-exp[x[[i]],a,b])/(1+exp[x[[i]],a,b]),{i,n}];
+dlogb=n - 2 Sum[exp[x[[i]],a,b]/(1+exp[x[[i]],a,b]),{i,n}];
+
+dloga2=FullSimplify[dloga]
+dlogb2=FullSimplify[Together[FullSimplify[dlogb]]]
+dlogb2A=-3 - E^(a*(-b + x1)) - E^(a*(-b + x2)) + E^(a*(-2*b + x1 + x2)) - E^(a*(-b + x3)) + E^(a*(-2*b + x1 + x3)) + E^(a*(-2*b + x2 + x3)) + 3*E^(a*(-3*b + x1 + x2 + x3))
+
+c=FullSimplify[dlogb2A/.b->(x1+x2+x3)/3]
+d=dloga2/.b->(x1+x2+x3)/3
+
+---
+
+a=1;
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+f[x_]:=a exp[x,a,b]/(1+exp[x,a,b])^2;
+logf[x_]:=Log[f[x]];
+d1logf[x_]:=D[logf[x],b];
+d2logf[x_]:=D[logf[x],{b,2}];
+info1=FullSimplify[Integrate[(d1logf[x]^2)*f[x],x]]
+info2=FullSimplify[-Integrate[d2logf[x]*f[x],x]]
+
+---
+
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+f[x_]:=1/(1+exp[x,a,b]);
+chi=n/(f[x](1-f[x]))*(r/n-f[x])^2
+dchia=FullSimplify[D[chi,a]]
+dchib=FullSimplify[D[chi,b]]
+
+---
+
+b=x/(1-c);
+e2=FullSimplify[(1-c)(Pi^2 /(3 a^2) + b^2) - y]
+e3=FullSimplify[(1-c)(Pi^2 b / a^2 + b^3) - z]
+
+---
+
+a=-Pi^2(1-c)^2 / (3(x^2 - y(1-c)))
+b=FullSimplify[Together[Pi^2 x + a(x^3 - (1-c)^2 z)]]
+
+---
+
+eq=c x^4 - a^3 x^2 - 3 a b x + 3 a^3
+Solve[eq==0,x]
+
+---
+
+x1=1
+x2=2
+x=(x1 + x2) / 2
+y=(x1^2 + x2^2) / 2
+z=(x1^3 + x2^3) / 2
+
+a=z
+b=0
+c=-(x^3)
+d=-3 x y
+e=3 x^3
+
+delta = 256 a^3 e^3 - 192 a^2 b d e^2 - 128 a^2 c^2 e^2 + 144 a^2 c d^2 e - 27 a^2 d^4 + 144 a b^2 c e^2 - 6 a b^2 d^2 e - 80 a b c^2 d e + 18 a b c d^3 + 16 a c^4 e - 4 a c^3 d^2 - 27 b^4 e^2 + 18 b^3 c d e - 4 b^3 d^3 - 4 b^2 c^3 e + b^2 c^2 d^2
+
+pp=8 a c - 3 b^2
+qq=b^3 + 8 d a^2 - 4 a b c
+delta0=c^2 - 3 b d + 12 a e
+delta1=2 c^3 - 9 b c d + 27 b^2 e + 27 a d^2 - 72 a c e
+dd=64 a^3 e - 16 a^2 c^2 + 16 a b^2 c - 16 a^2 b d - 3 b^4
+p=(8 a c - 3 b^2) / (8 a^2)
+q=(b^3 - 4 a b c + 8 a^2 d) / (8 a^3)
+ss=Sqrt[(-2 p)/3 + (qq + delta0/qq)/(3 a)] / 2
+qq=CubeRoot[(delta1 + Sqrt[delta1^2 - 4 delta0^3])/2]
+
+y1=FullSimplify[-b/(4a) - ss + Sqrt[-4 ss^2 - 2 p + q/ss]/2]
+y2=FullSimplify[-b/(4a) - ss - Sqrt[-4 ss^2 - 2 p + q/ss]/2]
+
+y3=FullSimplify[-b/(4a) + ss + Sqrt[-4 ss^2 - 2 p + q/ss]/2]
+y4=FullSimplify[-b/(4a) + ss - Sqrt[-4 ss^2 - 2 p + q/ss]/2]
+
+---
+
+sample={1,2,3}
+m1=Mean[sample]
+m2=Mean[sample^2]
+m3=Mean[sample^3]
+
+a=m3
+b=0
+c=-(m1^3)
+d=-3 m1 m2
+e=3 m1^3
+
+eq=a x^4 + b x^3 + c x^2 + d x + e
+Plot[eq,{x,0.4,1.2}]
+root=FindRoot[eq,{x,1}]
+
+x=x /. root
+a=-Pi^2 * x^2 / (3(m1^2 - m2 x))
+b=m1 / x
+c=1-x /. root
+
+x=.
+exp[x_,a_,b_]:=Exp[-a(x-b)]
+f=c + (1-c)/(1+exp[x,a,b])
+g=a (1-c) exp[x,a,b] / (1+exp[x,a,b])^2
+Plot[f,{x,0.4,3.6}]
+
+---
+
+s={1,2,3};
+m1=Mean[s];
+n=Length[s];
+exp[x_,a_,b_]:=Exp[-a(x-b)];
+
+b=m1;
+eq1=n/a - Sum[s[[i]](1-exp[s[[i]],a,b])/(1+exp[s[[i]],a,b]),{i,n}];
+eq1=FullSimplify[eq1]
+eq1=FullSimplify[Together[eq1 /. b->2]]
+eq2=n - 2 Sum[exp[s[[i]],a,b]/(1+exp[s[[i]],a,b]),{i,n}];
+eq2=FullSimplify[eq2]
+eq2=FullSimplify[Together[eq2 /. b->2]]
+
+eq1=Exp[a](2a-3) - (2a + 3)
+Plot[eq1, {a,0,2}]
+FindRoot[eq1,{a=2}]

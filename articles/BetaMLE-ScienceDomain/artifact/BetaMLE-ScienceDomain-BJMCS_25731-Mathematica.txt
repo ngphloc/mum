@@ -1,0 +1,6 @@
+x[1]=0.1
+x[2]=0.2
+n=2
+lnl[a_,b_]:=-n*Log[Beta[a,b]]+(a-1)Sum[Log[x[i]],{i,n}]+(b-1)Sum[Log[1-x[i]],{i,n}];
+Plot3D[lnl[a,b],{a,-5,5},{b,-5,5}]
+ContourPlot[lnl[a,b],{a,-5,5},{b,-5,5}]

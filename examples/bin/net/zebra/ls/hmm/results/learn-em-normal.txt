@@ -1,0 +1,1152 @@
+EM learning algorithm on observation sequence O={o(0)=0.880000, o(1)=0.130000, o(2)=0.380000} with HMM:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.500000 0.250000 0.250000
+0.300000 0.400000 0.300000
+0.250000 0.250000 0.500000
+
+Initial state probability PI
+0.330000 0.330000 0.330000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.870000, variance=0.900000)
+Distribution 1:
+Normal distribution (mean=0.140000, variance=0.900000)
+Distribution 2:
+Normal distribution (mean=0.390000, variance=0.900000)
+
+-----Iteration 0-----
+b0(o0=0.880000)=0.008410
+b0(o1=0.130000)=0.006204
+b0(o2=0.380000)=0.007360
+b1(o0=0.880000)=0.006204
+b1(o1=0.130000)=0.008410
+b1(o2=0.380000)=0.008145
+b2(o0=0.880000)=0.007360
+b2(o1=0.130000)=0.008100
+b2(o2=0.380000)=0.008410
+
+alpha0(0)=0.002775
+alpha0(1)=0.002047
+alpha0(2)=0.002429
+alpha1(0)=0.000016
+alpha1(1)=0.000018
+alpha1(2)=0.000020
+alpha2(0)=0.000000
+alpha2(1)=0.000000
+alpha2(2)=0.000000
+
+beta0(0)=0.000057
+beta0(1)=0.000061
+beta0(2)=0.000062
+beta1(0)=0.007819
+beta1(1)=0.007989
+beta1(2)=0.008081
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.000000
+c1(0,2)=0.000000
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000000
+c2(1,2)=0.000000
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000000
+
+gamma0(0)=0.000000
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.000000
+gamma1(2)=0.000000
+gamma2(0)=0.000000
+gamma2(1)=0.000000
+gamma2(2)=0.000000
+
+Given current parameters, terminating criterion is P(O)=0.000000
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.443786 0.278330 0.277883
+0.258587 0.422909 0.318504
+0.212952 0.261709 0.525339
+
+Initial state probability PI
+0.367053 0.288002 0.344945
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.493699, variance=0.100098)
+Distribution 1:
+Normal distribution (mean=0.447242, variance=0.095846)
+Distribution 2:
+Normal distribution (mean=0.450017, variance=0.094633)
+
+-----Iteration 1-----
+b0(o0=0.880000)=0.011968
+b0(o1=0.130000)=0.013026
+b0(o2=0.380000)=0.023639
+b1(o0=0.880000)=0.009703
+b1(o1=0.130000)=0.015246
+b1(o2=0.380000)=0.025167
+b2(o0=0.880000)=0.009767
+b2(o1=0.130000)=0.015098
+b2(o2=0.380000)=0.025269
+
+alpha0(0)=0.004393
+alpha0(1)=0.002795
+alpha0(2)=0.003369
+alpha1(0)=0.000044
+alpha1(1)=0.000050
+alpha1(2)=0.000059
+alpha2(0)=0.000001
+alpha2(1)=0.000001
+alpha2(2)=0.000001
+
+beta0(0)=0.000351
+beta0(1)=0.000362
+beta0(2)=0.000364
+beta1(0)=0.024517
+beta1(1)=0.024805
+beta1(2)=0.024895
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000001
+c1(0,1)=0.000000
+c1(0,2)=0.000000
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000001
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000001
+c2(1,2)=0.000000
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000001
+
+gamma0(0)=0.000002
+gamma0(1)=0.000001
+gamma0(2)=0.000001
+gamma1(0)=0.000001
+gamma1(1)=0.000001
+gamma1(2)=0.000001
+gamma2(0)=0.000001
+gamma2(1)=0.000001
+gamma2(2)=0.000001
+
+Given current parameters, terminating criterion is P(O)=0.000004
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.413419 0.293817 0.292764
+0.238147 0.434668 0.327184
+0.195073 0.267764 0.537163
+
+Initial state probability PI
+0.407999 0.267524 0.324477
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.515827, variance=0.104459)
+Distribution 1:
+Normal distribution (mean=0.436110, variance=0.091798)
+Distribution 2:
+Normal distribution (mean=0.439658, variance=0.091739)
+
+-----Iteration 2-----
+b0(o0=0.880000)=0.013086
+b0(o1=0.130000)=0.012107
+b0(o2=0.380000)=0.022597
+b1(o0=0.880000)=0.009006
+b1(o1=0.130000)=0.015808
+b1(o2=0.380000)=0.025882
+b2(o0=0.880000)=0.009158
+b2(o1=0.130000)=0.015621
+b2(o2=0.380000)=0.025832
+
+alpha0(0)=0.005339
+alpha0(1)=0.002409
+alpha0(2)=0.002971
+alpha1(0)=0.000041
+alpha1(1)=0.000054
+alpha1(2)=0.000062
+alpha2(0)=0.000001
+alpha2(1)=0.000001
+alpha2(2)=0.000002
+
+beta0(0)=0.000354
+beta0(1)=0.000372
+beta0(2)=0.000376
+beta1(0)=0.024510
+beta1(1)=0.025084
+beta1(2)=0.025215
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000001
+c1(0,1)=0.000001
+c1(0,2)=0.000001
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000001
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000001
+c2(1,2)=0.000000
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000001
+
+gamma0(0)=0.000002
+gamma0(1)=0.000001
+gamma0(2)=0.000001
+gamma1(0)=0.000001
+gamma1(1)=0.000001
+gamma1(2)=0.000002
+gamma2(0)=0.000001
+gamma2(1)=0.000001
+gamma2(2)=0.000002
+
+Given current parameters, terminating criterion is P(O)=0.000004
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.358181 0.322306 0.319513
+0.204775 0.454461 0.340764
+0.166167 0.278112 0.555721
+
+Initial state probability PI
+0.484693 0.229458 0.285849
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.561888, variance=0.106656)
+Distribution 1:
+Normal distribution (mean=0.410568, variance=0.084958)
+Distribution 2:
+Normal distribution (mean=0.419484, variance=0.086135)
+
+-----Iteration 3-----
+b0(o0=0.880000)=0.015202
+b0(o1=0.130000)=0.010191
+b0(o2=0.380000)=0.020919
+b1(o0=0.880000)=0.007486
+b1(o1=0.130000)=0.017224
+b1(o2=0.380000)=0.027219
+b2(o0=0.880000)=0.007940
+b2(o1=0.130000)=0.016714
+b2(o2=0.380000)=0.026936
+
+alpha0(0)=0.007369
+alpha0(1)=0.001718
+alpha0(2)=0.002270
+alpha1(0)=0.000034
+alpha1(1)=0.000065
+alpha1(2)=0.000070
+alpha2(0)=0.000001
+alpha2(1)=0.000002
+alpha2(2)=0.000002
+
+beta0(0)=0.000373
+beta0(1)=0.000402
+beta0(2)=0.000407
+beta1(0)=0.024872
+beta1(1)=0.025832
+beta1(2)=0.026015
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000001
+c1(0,1)=0.000001
+c1(0,2)=0.000001
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000001
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000001
+c2(1,2)=0.000001
+c2(2,0)=0.000000
+c2(2,1)=0.000001
+c2(2,2)=0.000001
+
+gamma0(0)=0.000003
+gamma0(1)=0.000001
+gamma0(2)=0.000001
+gamma1(0)=0.000001
+gamma1(1)=0.000002
+gamma1(2)=0.000002
+gamma2(0)=0.000001
+gamma2(1)=0.000002
+gamma2(2)=0.000002
+
+Given current parameters, terminating criterion is P(O)=0.000004
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.257054 0.376840 0.366105
+0.155126 0.485769 0.359105
+0.123449 0.295242 0.581309
+
+Initial state probability PI
+0.629834 0.158291 0.211875
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.644895, variance=0.098794)
+Distribution 1:
+Normal distribution (mean=0.361141, variance=0.068892)
+Distribution 2:
+Normal distribution (mean=0.381231, variance=0.073537)
+
+-----Iteration 4-----
+b0(o0=0.880000)=0.019189
+b0(o1=0.130000)=0.006637
+b0(o2=0.380000)=0.017796
+b1(o0=0.880000)=0.004311
+b1(o1=0.130000)=0.020627
+b1(o2=0.380000)=0.030313
+b2(o0=0.880000)=0.005424
+b2(o1=0.130000)=0.019156
+b2(o2=0.380000)=0.029416
+
+alpha0(0)=0.012086
+alpha0(1)=0.000682
+alpha0(2)=0.001149
+alpha1(0)=0.000022
+alpha1(1)=0.000108
+alpha1(2)=0.000102
+alpha2(0)=0.000001
+alpha2(1)=0.000003
+alpha2(2)=0.000003
+
+beta0(0)=0.000462
+beta0(1)=0.000503
+beta0(2)=0.000507
+beta1(0)=0.026767
+beta1(1)=0.028049
+beta1(2)=0.028246
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000001
+c1(0,1)=0.000003
+c1(0,2)=0.000002
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000002
+c2(1,2)=0.000001
+c2(2,0)=0.000000
+c2(2,1)=0.000001
+c2(2,2)=0.000002
+
+gamma0(0)=0.000006
+gamma0(1)=0.000000
+gamma0(2)=0.000001
+gamma1(0)=0.000001
+gamma1(1)=0.000003
+gamma1(2)=0.000003
+gamma2(0)=0.000001
+gamma2(1)=0.000003
+gamma2(2)=0.000003
+
+Given current parameters, terminating criterion is P(O)=0.000007
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.105840 0.467762 0.426398
+0.093973 0.528428 0.377599
+0.071974 0.320184 0.607842
+
+Initial state probability PI
+0.857668 0.052741 0.089590
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.768405, variance=0.059774)
+Distribution 1:
+Normal distribution (mean=0.284589, variance=0.035769)
+Distribution 2:
+Normal distribution (mean=0.314745, variance=0.045190)
+
+-----Iteration 5-----
+b0(o0=0.880000)=0.029400
+b0(o1=0.130000)=0.001081
+b0(o2=0.380000)=0.009243
+b1(o0=0.880000)=0.000298
+b1(o1=0.130000)=0.030202
+b1(o2=0.380000)=0.037134
+b2(o0=0.880000)=0.001097
+b2(o1=0.130000)=0.025726
+b2(o2=0.380000)=0.035794
+
+alpha0(0)=0.025215
+alpha0(1)=0.000016
+alpha0(2)=0.000098
+alpha1(0)=0.000003
+alpha1(1)=0.000357
+alpha1(2)=0.000278
+alpha2(0)=0.000000
+alpha2(1)=0.000010
+alpha2(2)=0.000011
+
+beta0(0)=0.000861
+beta0(1)=0.000879
+beta0(2)=0.000868
+beta1(0)=0.033611
+beta1(1)=0.034007
+beta1(2)=0.034312
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.000012
+c1(0,2)=0.000009
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000007
+c2(1,2)=0.000005
+c2(2,0)=0.000000
+c2(2,1)=0.000003
+c2(2,2)=0.000006
+
+gamma0(0)=0.000022
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.000012
+gamma1(2)=0.000010
+gamma2(0)=0.000000
+gamma2(1)=0.000010
+gamma2(2)=0.000011
+
+Given current parameters, terminating criterion is P(O)=0.000022
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.004578 0.558026 0.437397
+0.025518 0.577063 0.397419
+0.019244 0.346803 0.633953
+
+Initial state probability PI
+0.995453 0.000635 0.003912
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.865551, variance=0.007834)
+Distribution 1:
+Normal distribution (mean=0.245500, variance=0.015765)
+Distribution 2:
+Normal distribution (mean=0.265988, variance=0.017059)
+
+-----Iteration 6-----
+b0(o0=0.880000)=0.088772
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.041617
+b1(o2=0.380000)=0.035808
+b2(o0=0.880000)=0.000001
+b2(o1=0.130000)=0.035531
+b2(o2=0.380000)=0.041725
+
+alpha0(0)=0.088368
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.002052
+alpha1(2)=0.001373
+alpha2(0)=0.000000
+alpha2(1)=0.000059
+alpha2(2)=0.000070
+
+beta0(0)=0.001469
+beta0(1)=0.001443
+beta0(2)=0.001413
+beta1(0)=0.038232
+beta1(1)=0.037246
+beta1(2)=0.038870
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.000076
+c1(0,2)=0.000053
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000042
+c2(1,2)=0.000034
+c2(2,0)=0.000000
+c2(2,1)=0.000017
+c2(2,2)=0.000036
+
+gamma0(0)=0.000130
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.000076
+gamma1(2)=0.000053
+gamma2(0)=0.000000
+gamma2(1)=0.000059
+gamma2(2)=0.000070
+
+Given current parameters, terminating criterion is P(O)=0.000130
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 0.588799 0.411201
+0.000000 0.554790 0.445210
+0.000000 0.319486 0.680514
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.239385, variance=0.015381)
+Distribution 2:
+Normal distribution (mean=0.272149, variance=0.015331)
+
+-----Iteration 7-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.043593
+b1(o2=0.380000)=0.033840
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.033351
+b2(o2=0.380000)=0.044085
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.025668
+alpha1(2)=0.013714
+alpha2(0)=0.000000
+alpha2(1)=0.000630
+alpha2(2)=0.000915
+
+beta0(0)=0.001545
+beta0(1)=0.001535
+beta0(2)=0.001461
+beta1(0)=0.038053
+beta1(1)=0.038401
+beta1(2)=0.040812
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.000986
+c1(0,2)=0.000560
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000482
+c2(1,2)=0.000504
+c2(2,0)=0.000000
+c2(2,1)=0.000148
+c2(2,2)=0.000411
+
+gamma0(0)=0.001545
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.000986
+gamma1(2)=0.000560
+gamma2(0)=0.000000
+gamma2(1)=0.000630
+gamma2(2)=0.000915
+
+Given current parameters, terminating criterion is P(O)=0.001545
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 0.637829 0.362171
+0.000000 0.488899 0.511101
+0.000000 0.264912 0.735088
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.227498, variance=0.014869)
+Distribution 2:
+Normal distribution (mean=0.285131, variance=0.014717)
+
+-----Iteration 8-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.047512
+b1(o2=0.380000)=0.029952
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.029058
+b2(o2=0.380000)=0.048422
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.030304
+alpha1(2)=0.010524
+alpha2(0)=0.000000
+alpha2(1)=0.000527
+alpha2(2)=0.001125
+
+beta0(0)=0.001652
+beta0(1)=0.001561
+beta0(2)=0.001426
+beta1(0)=0.036641
+beta1(1)=0.039392
+beta1(2)=0.043529
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.001194
+c1(0,2)=0.000458
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000444
+c2(1,2)=0.000750
+c2(2,0)=0.000000
+c2(2,1)=0.000084
+c2(2,2)=0.000375
+
+gamma0(0)=0.001652
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.001194
+gamma1(2)=0.000458
+gamma2(0)=0.000000
+gamma2(1)=0.000527
+gamma2(2)=0.001125
+
+Given current parameters, terminating criterion is P(O)=0.001652
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 0.722678 0.277322
+0.000000 0.371738 0.628262
+0.000000 0.182284 0.817716
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.206592, variance=0.013282)
+Distribution 2:
+Normal distribution (mean=0.307639, variance=0.012854)
+
+-----Iteration 9-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.055475
+b1(o2=0.380000)=0.022355
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.020661
+b2(o2=0.380000)=0.057363
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.040091
+alpha1(2)=0.005730
+alpha2(0)=0.000000
+alpha2(1)=0.000357
+alpha2(2)=0.001714
+
+beta0(0)=0.002070
+beta0(1)=0.001576
+beta0(2)=0.001310
+beta1(0)=0.032063
+beta1(1)=0.044349
+beta1(2)=0.050981
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.001778
+c1(0,2)=0.000292
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000333
+c2(1,2)=0.001445
+c2(2,0)=0.000000
+c2(2,1)=0.000023
+c2(2,2)=0.000269
+
+gamma0(0)=0.002070
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.001778
+gamma1(2)=0.000292
+gamma2(0)=0.000000
+gamma2(1)=0.000357
+gamma2(2)=0.001714
+
+Given current parameters, terminating criterion is P(O)=0.002070
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 0.858888 0.141112
+0.000000 0.187379 0.812621
+0.000000 0.079929 0.920071
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.171755, variance=0.008695)
+Distribution 2:
+Normal distribution (mean=0.343589, variance=0.007777)
+
+-----Iteration 10-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.077284
+b1(o2=0.380000)=0.007123
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.004867
+b2(o2=0.380000)=0.082937
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.066379
+alpha1(2)=0.000687
+alpha2(0)=0.000000
+alpha2(1)=0.000089
+alpha2(2)=0.004526
+
+beta0(0)=0.004615
+beta0(1)=0.001299
+beta0(2)=0.000769
+beta1(0)=0.017821
+beta1(1)=0.068731
+beta1(2)=0.076877
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.004562
+c1(0,2)=0.000053
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000089
+c2(1,2)=0.004474
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000052
+
+gamma0(0)=0.004615
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.004562
+gamma1(2)=0.000053
+gamma2(0)=0.000000
+gamma2(1)=0.000089
+gamma2(2)=0.004526
+
+Given current parameters, terminating criterion is P(O)=0.004615
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 0.988560 0.011440
+0.000000 0.019418 0.980582
+0.000000 0.007405 0.992595
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.134783, variance=0.001173)
+Distribution 2:
+Normal distribution (mean=0.377117, variance=0.000712)
+
+-----Iteration 11-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=0.227550
+b1(o2=0.380000)=0.000000
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.000000
+b2(o2=0.380000)=0.290482
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=0.224947
+alpha1(2)=0.000000
+alpha2(0)=0.000000
+alpha2(1)=0.000000
+alpha2(2)=0.064074
+
+beta0(0)=0.064074
+beta0(1)=0.001259
+beta0(2)=0.000480
+beta1(0)=0.003323
+beta1(1)=0.284841
+beta1(2)=0.288331
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=0.064074
+c1(0,2)=0.000000
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000000
+c2(1,2)=0.064074
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000000
+
+gamma0(0)=0.064074
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=0.064074
+gamma1(2)=0.000000
+gamma2(0)=0.000000
+gamma2(1)=0.000000
+gamma2(2)=0.064074
+
+Given current parameters, terminating criterion is P(O)=0.064074
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.130000, variance=0.000000)
+Distribution 2:
+Normal distribution (mean=0.380000, variance=0.000000)
+
+-----Iteration 12-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=1.000000
+b1(o2=0.380000)=0.000000
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.000000
+b2(o2=0.380000)=1.000000
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=1.000000
+alpha1(2)=0.000000
+alpha2(0)=0.000000
+alpha2(1)=0.000000
+alpha2(2)=1.000000
+
+beta0(0)=1.000000
+beta0(1)=0.000000
+beta0(2)=0.000000
+beta1(0)=0.000000
+beta1(1)=1.000000
+beta1(2)=1.000000
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=1.000000
+c1(0,2)=0.000000
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000000
+c2(1,2)=1.000000
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000000
+
+gamma0(0)=1.000000
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=1.000000
+gamma1(2)=0.000000
+gamma2(0)=0.000000
+gamma2(1)=0.000000
+gamma2(2)=1.000000
+
+Given current parameters, terminating criterion is P(O)=1.000000
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.130000, variance=0.000000)
+Distribution 2:
+Normal distribution (mean=0.380000, variance=0.000000)
+
+-----Iteration 13-----
+b0(o0=0.880000)=1.000000
+b0(o1=0.130000)=0.000000
+b0(o2=0.380000)=0.000000
+b1(o0=0.880000)=0.000000
+b1(o1=0.130000)=1.000000
+b1(o2=0.380000)=0.000000
+b2(o0=0.880000)=0.000000
+b2(o1=0.130000)=0.000000
+b2(o2=0.380000)=1.000000
+
+alpha0(0)=1.000000
+alpha0(1)=0.000000
+alpha0(2)=0.000000
+alpha1(0)=0.000000
+alpha1(1)=1.000000
+alpha1(2)=0.000000
+alpha2(0)=0.000000
+alpha2(1)=0.000000
+alpha2(2)=1.000000
+
+beta0(0)=1.000000
+beta0(1)=0.000000
+beta0(2)=0.000000
+beta1(0)=0.000000
+beta1(1)=1.000000
+beta1(2)=1.000000
+beta2(0)=1.000000
+beta2(1)=1.000000
+beta2(2)=1.000000
+
+c1(0,0)=0.000000
+c1(0,1)=1.000000
+c1(0,2)=0.000000
+c1(1,0)=0.000000
+c1(1,1)=0.000000
+c1(1,2)=0.000000
+c1(2,0)=0.000000
+c1(2,1)=0.000000
+c1(2,2)=0.000000
+c2(0,0)=0.000000
+c2(0,1)=0.000000
+c2(0,2)=0.000000
+c2(1,0)=0.000000
+c2(1,1)=0.000000
+c2(1,2)=1.000000
+c2(2,0)=0.000000
+c2(2,1)=0.000000
+c2(2,2)=0.000000
+
+gamma0(0)=1.000000
+gamma0(1)=0.000000
+gamma0(2)=0.000000
+gamma1(0)=0.000000
+gamma1(1)=1.000000
+gamma1(2)=0.000000
+gamma2(0)=0.000000
+gamma2(1)=0.000000
+gamma2(2)=1.000000
+
+Given current parameters, terminating criterion is P(O)=1.000000
+
+The resulted estimate is:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+
+Initial state probability PI
+1.000000 0.000000 0.000000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.880000, variance=0.000000)
+Distribution 1:
+Normal distribution (mean=0.130000, variance=0.000000)
+Distribution 2:
+Normal distribution (mean=0.380000, variance=0.000000)

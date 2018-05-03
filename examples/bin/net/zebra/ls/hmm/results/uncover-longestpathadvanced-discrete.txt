@@ -1,0 +1,51 @@
+Advanced Longest-path algorithm on observation sequence O={o(0)=3.0, o(1)=0.0, o(2)=1.0} with HMM:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Observations O={o0=dry, o1=dryish, o2=damp, o3=soggy}
+
+Transition probability matrix A
+0.500000 0.250000 0.250000
+0.300000 0.400000 0.300000
+0.250000 0.250000 0.500000
+
+Initial state probability PI
+0.330000 0.330000 0.330000
+
+Observation probability matrix or distribution B
+Distribution 0:
+0.600000 0.200000 0.150000 0.050000
+Distribution 1:
+0.250000 0.250000 0.250000 0.250000
+Distribution 2:
+0.050000 0.100000 0.350000 0.500000
+
+-----t=0-----
+W-1000=0.016500
+W-1001=0.082500
+W-1002=0.165000
+W0010=0.059400
+W0011=0.005156
+W0012=0.000206
+Max{W001k} k from 1 to 2 is W0010=0.059400
+W0110=0.035640
+W0111=0.008250
+W0112=0.000248
+Max{W011k} k from 1 to 2 is W0110=0.035640
+W0210=0.029700
+W0211=0.005156
+W0212=0.000413
+Max{W021k} k from 1 to 2 is W0210=0.029700
+W-1000*W0010=0.016500*0.059400=0.000980
+W-1001*W0110=0.082500*0.035640=0.002940
+W-1002*W0210=0.165000*0.029700=0.004901
+The product W-100[2]*W021[0]=0.004901 is maximal and so:
+Optimal states is: x0=2, x1=0
+
+-----t=2-----
+W1020=0.006600
+W1021=0.005156
+W1022=0.000825
+Max{W102k} k from 0 to 2 is W1020=0.006600
+Optimal states: x2=0
+
+The longest-path (optimal state sequence) is X={x(0)=2, x(1)=0, x(2)=0}

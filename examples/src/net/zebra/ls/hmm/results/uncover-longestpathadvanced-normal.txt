@@ -1,0 +1,49 @@
+Advanced Longest-path algorithm on observation sequence O={o(0)=0.88, o(1)=0.13, o(2)=0.38} with HMM:
+States S={s0=sunny, s1=cloudy, s2=rainy}
+
+Transition probability matrix A
+0.500000 0.250000 0.250000
+0.300000 0.400000 0.300000
+0.250000 0.250000 0.500000
+
+Initial state probability PI
+0.330000 0.330000 0.330000
+
+Observation probability matrix or distribution B
+Distribution 0:
+Normal distribution (mean=0.870000, variance=0.900000)
+Distribution 1:
+Normal distribution (mean=0.140000, variance=0.900000)
+Distribution 2:
+Normal distribution (mean=0.390000, variance=0.900000)
+
+-----t=0-----
+W-1000=0.002775
+W-1001=0.002047
+W-1002=0.002429
+W0010=0.000006
+W0011=0.000006
+W0012=0.000005
+Max{W001k} k from 1 to 2 is W0010=0.000006
+W0110=0.000004
+W0111=0.000009
+W0112=0.000006
+Max{W011k} k from 1 to 2 is W0111=0.000009
+W0210=0.000003
+W0211=0.000006
+W0212=0.000011
+Max{W021k} k from 1 to 2 is W0212=0.000011
+W-1000*W0010=0.002775*0.000006=0.000000
+W-1001*W0111=0.002047*0.000009=0.000000
+W-1002*W0212=0.002429*0.000011=0.000000
+The product W-120[2]*W021[2]=0.000000 is maximal and so:
+Optimal states is: x0=2, x1=2
+
+-----t=2-----
+W1220=0.000004
+W1221=0.000005
+W1222=0.000012
+Max{W122k} k from 0 to 2 is W1222=0.000012
+Optimal states: x2=2
+
+The longest-path (optimal state sequence) is X={x(0)=2, x(1)=2, x(2)=2}

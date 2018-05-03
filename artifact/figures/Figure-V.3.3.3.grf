@@ -1,0 +1,131 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows XP 5.1 Service Pack 3
+
+[Axes]
+xMin = -9.21104536489152
+xMax = 10.7889546351085
+xTickUnit = 1
+xGridUnit = 1
+yMin = -4.95069033530572
+yMax = 8.30374753451676
+yTickUnit = 1
+yGridUnit = 1
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[PointSeries1]
+FillColor = clBlack
+LineColor = clBlack
+Size = 5
+Style = 1
+LabelPosition = 1
+PointCount = 1
+Points = 1,5;
+LegendText = X1
+
+[PointSeries2]
+FillColor = clBlack
+LineColor = clBlack
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 1
+Points = 1,4;
+LegendText = X2
+
+[PointSeries3]
+FillColor = clWhite
+LineColor = clBlack
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 1
+Points = 2,4;
+LegendText = X3
+
+[PointSeries4]
+FillColor = clWhite
+LineColor = clBlack
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 1
+Points = 1,1;
+LegendText = X4
+
+[PointSeries5]
+FillColor = clWhite
+LineColor = clBlack
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 1
+Points = 2,1;
+LegendText = X5
+
+[Label1]
+Placement = 0
+Pos = 0.631163708086785;4.91124260355029
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 1\\nosupersub =(1,5)\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 0.631163708086785;3.84615384615384
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 2\\nosupersub =(1,4)\\i\\fs20\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label3]
+Placement = 0
+Pos = 2.20907297830375;4.14201183431952
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 3\\nosupersub =(2,4)\\fs20\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label4]
+Placement = 0
+Pos = 0.453648915187377;0.88757396449704
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 4\\nosupersub =(1,1)\\i\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label5]
+Placement = 0
+Pos = 1.89349112426035;0.88757396449704
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 5\\nosupersub =(2,1)\\i\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label6]
+Placement = 0
+Pos = 2.38658777120316;1.85404339250493
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\i\\f0\\fs24 X\\sub\\i0 6\\nosupersub =(3,2)\\i\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[PointSeries6]
+FillColor = clWhite
+LineColor = clBlack
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 1
+Points = 3,2;
+LegendText = X6
+
+[Data]
+TextLabelCount = 6
+FuncCount = 0
+PointSeriesCount = 6
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
